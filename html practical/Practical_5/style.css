@@ -1,0 +1,49 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+#second {
+    text-align: center;
+}
+
+.first {
+    background-color: #ffebee;
+}
+
+form {
+    background-color: #f3e5f5;
+    color: #333;
+    padding: 5px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: left;
+    margin: 20px auto;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+form div {
+    margin: 20px;
+}
+
+input,
+textarea,
+select {
+    border-radius: 5px;
+    width: 60%;
+    padding: 8px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    display: block;
+    margin: 10px auto;
+}

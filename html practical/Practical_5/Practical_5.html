@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="first">
+        <h1>Admission Form</h1>
+        <h3 id="second">Fill the below details</h3>
+    </div>
+    <form action="#" method="post">
+        <div class="second">
+            <div>
+                <label for="name">Name:</label>
+                <input id="name" placeholder="Enter Your Name" type="text">
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input id="mail" type="email" placeholder="Enter Your E-Mail">
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input id="pass" type="password" placeholder="Create a Password">
+            </div>
+            <div>
+                <label for="dob">DOB:</label>
+                <input id="dob" type="date">
+            </div>
+            <div>
+                <label for="time">Available Interview Time Slot:</label>
+                <input id="time" type="time">
+            </div>
+            <div>
+                <label for="pn">Phone Number:</label>
+                <input id="pn" type="tel" placeholder="Enter Your Phone Number">
+            </div>
+            <div>
+                <p>Gender:</p>
+
+                <input id="male" type="radio" value="male" name="gender">
+                <label for="male">Male</label>
+
+                <input id="female" type="radio" value="female" name="gender">
+                <label for="female">Female</label>
+
+                <input id="other" type="radio" value="other" name="gender">
+                <label for="other">Other</label>
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input id="age" type="number" placeholder="Enter Your Age">
+            </div>
+            <div>
+                <input id="cb" type="checkbox">
+                <label for="cb">I agree to the term's and conditions</label>
+            </div>
+            <div>
+                <label for="cc">Choose Courses:</label>
+                <select id="cc">
+                    <option value="" disabled selected>Select Course</option>
+                    <option value="B.Voc Software Development">B.Voc Software Development</option>
+                    <option value="B.Voc Banking">B.Voc Banking</option>
+                </select>
+            </div>
+            <div>
+                <label for="ta">Enter Comments(if any)</label>
+                <textarea id="ta" rows="5" placeholder="Enter Your Text Here..."></textarea>
+            </div>
+
+        </div>
+
+        <input type="reset" value="reset" style="background-color: #1976d2;">
+        <input type="submit" value="submit" style="background-color: #ef5350;">
+    </form>
+</body>
+
+</html>

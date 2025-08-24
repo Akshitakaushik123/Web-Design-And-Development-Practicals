@@ -1,0 +1,36 @@
+.first {
+    text-align: center;
+}
+
+h1,
+img {
+    vertical-align: top;
+
+}
+
+h1 {
+    color: red;
+    display: inline-block;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    padding: 14px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(26, 20, 69);
+    color: white;
+}
